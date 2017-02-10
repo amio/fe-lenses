@@ -1,0 +1,18 @@
+{
+  "name": "fe-lenses",
+  "version": "1.0.0",
+  "description": "Sony E-mount lenses catalog.",
+  "repository": "amio/fe-lenses",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["sony", "e-mount", "lenses", "catalog"],
+  "author": "Amio <amio.cn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^2.0.0-beta.24"
+  }
+}

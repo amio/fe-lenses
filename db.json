@@ -1,0 +1,31 @@
+{
+  "lenses": [
+    {
+      "name": "Sony FE 50mm F2.8 Macro",
+      "brand": "Sony",
+      "model": "SEL50M28",
+      "type": "prime",
+      "focallength": 50,
+      "format": "35mm",
+      "image": "https://example.com/lens/12345"
+    },
+    {
+      "name": "Sony FE 100mm F2.8 STF GM OSS",
+      "brank": "Sony",
+      "model": "SEL100F28GM",
+      "type": "prime",
+      "focallength": 100,
+      "format": "35mm",
+      "image": "https://example.com/lens/12345"
+    },
+    {
+      "name": "Sony FE 24-70mm F2.8 GM",
+      "model": "SEL-2470GM",
+      "type": "zoom",
+      "focallengthwide": 24,
+      "focallengthtele": 70,
+      "format": "35mm",
+      "image": "https://example.com/lens/12345"
+    }
+  ]
+}
