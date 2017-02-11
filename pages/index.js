@@ -25,8 +25,8 @@ export default () => (
     <style jsx>{`
       h1 {
         text-transform: uppercase;
-        letter-spacing: 0.05em;
-        font-family: serif;
+        letter-spacing: 0.04em;
+        font-family: Palatino, Georgia, serif;
         text-align: left;
       }
       .lens-chart {

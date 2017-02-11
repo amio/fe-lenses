@@ -1,8 +1,12 @@
 export default ({type, focallength, focallengthwide, focallengthtele}) => {
-  // y = 5 * sqrt(x)
-  // Max 100 for 400mm lens.
-  const posLeft = 5 * Math.sqrt(type === 'prime' ? focallength : focallengthwide)
-  const barWidth = 5 * Math.sqrt(type === 'zoom' ? focallengthtele : 100) - posLeft
+  // x = 5 * sqrt(focallength) : Min 1(%) for 1mm lens, Max 100(%) for 400mm lens.
+  // x = 7 * sqrt(focallength) : Min 1(%) for 1mm lens, Max 100(%) for ~200mm lens.
+  const ratio = 7
+  const offset = -23  // Currently no lens can be wider than 12mm
+  const posLeft = ratio * Math.sqrt(type === 'prime' ? focallength : focallengthwide) + offset
+  const posRight = ratio * Math.sqrt(type === 'prime' ? focallength : focallengthtele) + offset
+  const barWidth = posRight - posLeft
+
   return (
     <div className='focal-span'>
       {
@@ -29,6 +33,7 @@ export default ({type, focallength, focallengthwide, focallengthtele}) => {
         .prime, .zoom {
           position: relative;
           display: inline-block;
+          box-sizing: border-box;
           border-radius: 2px;
           padding: 0 4px;
           font-size: 12px;

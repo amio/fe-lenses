@@ -16,10 +16,16 @@ export default (props) => (
         background-color: #F5F5F5;
       }
       .name {
-        width: 16rem;
+        width: 23em;
         background-color: #EEE;
         padding-left: 0.5em;
         white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-radius: 3px;
+      }
+      .lens:hover .name {
+        overflow: visible;
       }
     `}</style>
   </div>
