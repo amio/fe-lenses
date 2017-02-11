@@ -6,11 +6,11 @@ const db = require('../db.json')
 export default () => (
   <div>
     <Head>
-      <title>E-mount lenses catalog</title>
+      <title>Full-frame E-mount lenses catalog</title>
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
     <header>
-      <h1>E-mount lenses catalog</h1>
+      <h1>Full-frame E-mount lenses catalog</h1>
     </header>
     <segment>
       <div className='lens-chart'>

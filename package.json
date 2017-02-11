@@ -1,7 +1,7 @@
 {
   "name": "fe-lenses",
   "version": "1.0.0",
-  "description": "Sony E-mount lenses catalog.",
+  "description": "Full-frame E-mount lenses catalog.",
   "repository": "amio/fe-lenses",
   "scripts": {
     "dev": "next",

@@ -95,33 +95,13 @@
       "focallengthwide": 24,
       "focallengthtele": 70,
       "format": "35mm"
-    }, {
-      "name": "Sony Vario-Tessar T* E 16-70mm F4 ZA OSS",
-      "model": "SEL1670Z",
-      "type": "zoom",
-      "focallengthwide": 16,
-      "focallengthtele": 70,
-      "format": "APS-C"
-    }, {
+    } {
       "name": "Sony Vario-Tessar T* FE 16-35mm F4 ZA OSS",
       "model": "SEL1635Z",
       "type": "zoom",
       "focallengthwide": 16,
       "focallengthtele": 35,
       "format": "35mm"
-    }, {
-      "name": "Sony E PZ 18-105mm F4 G OSS",
-      "model": "SELP18105G",
-      "type": "zoom",
-      "focallengthwide": 18,
-      "focallengthtele": 105,
-      "format": "APS-C"
-    }, {
-      "name": "Sony E 35mm F1.8 OSS",
-      "model": "SEL35F18",
-      "type": "prime",
-      "focallength": 35,
-      "format": "APS-C"
     }
   ]
 }
