@@ -1,31 +1,127 @@
 {
   "lenses": [
     {
+      "name": "Sony FE 28mm F2 Lens",
+      "model": "SEL28F20",
+      "type": "prime",
+      "focallength": 28,
+      "format": "35mm"
+    }, {
       "name": "Sony FE 50mm F2.8 Macro",
-      "brand": "Sony",
       "model": "SEL50M28",
       "type": "prime",
       "focallength": 50,
-      "format": "35mm",
-      "image": "https://example.com/lens/12345"
-    },
-    {
+      "format": "35mm"
+    }, {
+      "name": "Sony FE 85mm F1.8",
+      "model": "SEL85F18",
+      "type": "prime",
+      "focallength": 85,
+      "format": "35mm"
+    }, {
+      "name": "Sony FE 85mm F1.4 GM",
+      "model": "SEL85F14GM",
+      "type": "prime",
+      "focallength": 85,
+      "format": "35mm"
+    }, {
+      "name": "Sony FE 90mm F2.8 Macro G OSS",
+      "model": "SEL90M28G",
+      "type": "prime",
+      "focallength": 90,
+      "format": "35mm"
+    }, {
       "name": "Sony FE 100mm F2.8 STF GM OSS",
-      "brank": "Sony",
       "model": "SEL100F28GM",
       "type": "prime",
       "focallength": 100,
-      "format": "35mm",
-      "image": "https://example.com/lens/12345"
-    },
-    {
+      "format": "35mm"
+    }, {
       "name": "Sony FE 24-70mm F2.8 GM",
-      "model": "SEL-2470GM",
+      "model": "SEL2470GM",
       "type": "zoom",
       "focallengthwide": 24,
       "focallengthtele": 70,
-      "format": "35mm",
-      "image": "https://example.com/lens/12345"
+      "format": "35mm"
+    }, {
+      "name": "Sony FE 70-200mm F2.8 GM OSS",
+      "model": "SEL70200GM",
+      "type": "zoom",
+      "focallengthwide": 70,
+      "focallengthtele": 200,
+      "format": "35mm"
+    }, {
+      "name": "Sony FE 70-300mm F4.5-5.6 G OSS",
+      "model": "SEL70300G",
+      "type": "zoom",
+      "focallengthwide": 70,
+      "focallengthtele": 300,
+      "format": "35mm"
+    }, {
+      "name": "Sony FE 24-240mm F3.5-6.3 OSS",
+      "model": "SEL24240",
+      "type": "zoom",
+      "focallengthwide": 24,
+      "focallengthtele": 240,
+      "format": "35mm"
+    }, {
+      "name": "Sony Distagon T* FE 35mm F1.4 ZA",
+      "model": "SEL35F14Z",
+      "type": "prime",
+      "focallength": 35,
+      "format": "35mm"
+    }, {
+      "name": "Sony Sonnar T* FE 35mm F2.8 ZA",
+      "model": "SEL35F28Z",
+      "type": "prime",
+      "focallength": 35,
+      "format": "35mm"
+    }, {
+      "name": "Sony Sonnar T* FE 50mm F1.4 ZA",
+      "model": "SEL50F14Z",
+      "type": "prime",
+      "focallength": 50,
+      "format": "35mm"
+    }, {
+      "name": "Sony Sonnar T* FE 55mm F1.8 ZA",
+      "model": "SEL55F18Z",
+      "type": "prime",
+      "focallength": 55,
+      "format": "35mm"
+    }, {
+      "name": "Sony Vario-Tessar T* FE 24-70mm F4 ZA OSS",
+      "model": "SEL2470Z",
+      "type": "zoom",
+      "focallengthwide": 24,
+      "focallengthtele": 70,
+      "format": "35mm"
+    }, {
+      "name": "Sony Vario-Tessar T* E 16-70mm F4 ZA OSS",
+      "model": "SEL1670Z",
+      "type": "zoom",
+      "focallengthwide": 16,
+      "focallengthtele": 70,
+      "format": "APS-C"
+    }, {
+      "name": "Sony Vario-Tessar T* FE 16-35mm F4 ZA OSS",
+      "model": "SEL1635Z",
+      "type": "zoom",
+      "focallengthwide": 16,
+      "focallengthtele": 35,
+      "format": "35mm"
+    }, {
+      "name": "Sony E PZ 18-105mm F4 G OSS",
+      "model": "SELP18105G",
+      "type": "zoom",
+      "focallengthwide": 18,
+      "focallengthtele": 105,
+      "format": "APS-C"
+    }, {
+      "name": "Sony E 35mm F1.8 OSS",
+      "model": "SEL35F18",
+      "type": "prime",
+      "focallength": 35,
+      "format": "APS-C"
     }
   ]
 }
