@@ -9,3 +9,4 @@ Include Brands:
 - Voigtländer https://voigtlaender.com/e-mount.html
 - 中一光学 http://www.syzygx.com/
 - Samyang http://www.samyanglensglobal.com/
+- Rokinon http://www.rokinon.com/lenses/digital-photo-lenses/searchby/mount/sony-e
