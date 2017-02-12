@@ -8,3 +8,4 @@ Include Brands:
 - ZEISS https://www.zeiss.com/camera-lenses/en_de/camera_lenses.html
 - Voigtländer https://voigtlaender.com/e-mount.html
 - 中一光学 http://www.syzygx.com/
+- Samyang http://www.samyanglensglobal.com/

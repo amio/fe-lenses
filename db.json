@@ -180,6 +180,90 @@
       "type": "prime",
       "focallength": 50,
       "format": "35mm"
+    }, {
+      "name": "Samyang 12mm F2.8 ED AS NCS FISH-EYE",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=5",
+      "model": "SQ5",
+      "type": "prime",
+      "focallength": 12,
+      "format": "35mm"
+    }, {
+      "name": "Samyang 14mm F1.8 ED AS IF UMC",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=8",
+      "model": "SQ8",
+      "type": "prime",
+      "focallength": 14,
+      "format": "35mm"
+    }, {
+      "name": "Samyang AF 14 / 2.8 FE",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=36",
+      "model": "SQ36",
+      "type": "prime",
+      "focallength": 14,
+      "format": "35mm"
+    }, {
+      "name": "Samyang 20mm F1.8 ED AS UMC",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=50",
+      "model": "SQ50",
+      "type": "prime",
+      "focallength": 20,
+      "format": "35mm"
+    }, {
+      "name": "Samyang 24mm F1.4 ED AS UMC",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=11",
+      "model": "SQ11",
+      "type": "prime",
+      "focallength": 24,
+      "format": "35mm"
+    }, {
+      "name": "Samyang TILT/SHIFT LENS 24mm F3.5 ED AS UMC",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=10",
+      "model": "SQ10",
+      "type": "prime",
+      "focallength": 24,
+      "format": "35mm"
+    }, {
+      "name": "Samyang 35mm F1.4 AS UMC",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=12",
+      "model": "SQ12",
+      "type": "prime",
+      "focallength": 35,
+      "format": "35mm"
+    }, {
+      "name": "Samyang 50mm F1.4 AS UMC",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=6",
+      "model": "SQ6",
+      "type": "prime",
+      "focallength": 50,
+      "format": "35mm"
+    }, {
+      "name": "Samyang AF 50 / 1.4 FE",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=35",
+      "model": "SQ35",
+      "type": "prime",
+      "focallength": 50,
+      "format": "35mm"
+    }, {
+      "name": "Samyang 85mm F1.4 AS IF UMC",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=13",
+      "model": "SQ13",
+      "type": "prime",
+      "focallength": 85,
+      "format": "35mm"
+    }, {
+      "name": "Samyang 100mm F2.8 ED UMC MACRO",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=3",
+      "model": "SQ3",
+      "type": "prime",
+      "focallength": 100,
+      "format": "35mm"
+    }, {
+      "name": "Samyang 135mm F2.0 ED UMC",
+      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=4",
+      "model": "SQ4",
+      "type": "prime",
+      "focallength": 135,
+      "format": "35mm"
     }
   ]
 }
