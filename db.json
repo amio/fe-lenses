@@ -144,6 +144,36 @@
       "type": "prime",
       "focallength": 85,
       "format": "35mm"
+    }, {
+      "name": "Voigtlaender 10mm/F5,6 Hyper Wide Heliar",
+      "model": "V1056",
+      "type": "prime",
+      "focallength": 10,
+      "format": "35mm"
+    }, {
+      "name": "Voigtlaender 12mm/F5,6 Ultra Wide Heliar",
+      "model": "V1256",
+      "type": "prime",
+      "focallength": 12,
+      "format": "35mm"
+    }, {
+      "name": "Voigtlaender 15mm/F4,5 Ultra Wide Heliar",
+      "model": "V1545",
+      "type": "prime",
+      "focallength": 15,
+      "format": "35mm"
+    }, {
+      "name": "Voigtlaender 45mm/F2,8 Heliar",
+      "model": "V4528",
+      "type": "prime",
+      "focallength": 45,
+      "format": "35mm"
+    }, {
+      "name": "Voigtlaender 65mm/F2 Micro Apo-Lanthar",
+      "model": "V652",
+      "type": "prime",
+      "focallength": 65,
+      "format": "35mm"
     }
   ]
 }
