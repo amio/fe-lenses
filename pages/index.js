@@ -1,10 +1,13 @@
+import keep from '../now-keep'
 import Head from 'next/head'
 import LensRow from '../components/lens-row'
 
 const db = require('../db.json')
 
-export default () => (
-  <div>
+export default () => {
+  keep(24)
+
+  return <div>
     <Head>
       <title>Full-frame E-mount lenses catalog</title>
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
@@ -40,4 +43,4 @@ export default () => (
       }
     `}</style>
   </div>
-)
+}
