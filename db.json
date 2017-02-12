@@ -89,6 +89,13 @@
       "focallength": 55,
       "format": "35mm"
     }, {
+      "name": "Sony Vario-Tessar T* FE 16-35mm F4 ZA OSS",
+      "model": "SEL1635Z",
+      "type": "zoom",
+      "focallengthwide": 16,
+      "focallengthtele": 35,
+      "format": "35mm"
+    }, {
       "name": "Sony Vario-Tessar T* FE 24-70mm F4 ZA OSS",
       "model": "SEL2470Z",
       "type": "zoom",
@@ -96,11 +103,46 @@
       "focallengthtele": 70,
       "format": "35mm"
     }, {
-      "name": "Sony Vario-Tessar T* FE 16-35mm F4 ZA OSS",
-      "model": "SEL1635Z",
-      "type": "zoom",
-      "focallengthwide": 16,
-      "focallengthtele": 35,
+      "name": "ZEISS Loxia 2.8/21",
+      "model": "loxia2821",
+      "type": "prime",
+      "focallength": 28,
+      "format": "35mm"
+    }, {
+      "name": "ZEISS Loxia 2/35",
+      "model": "loxia235",
+      "type": "prime",
+      "focallength": 35,
+      "format": "35mm"
+    }, {
+      "name": "ZEISS Loxia 2/50",
+      "model": "loxia250",
+      "type": "prime",
+      "focallength": 50,
+      "format": "35mm"
+    }, {
+      "name": "ZEISS Loxia 2.4/85",
+      "model": "loxia2485",
+      "type": "prime",
+      "focallength": 85,
+      "format": "35mm"
+    }, {
+      "name": "ZEISS Batis 2.8/18",
+      "model": "batis2818",
+      "type": "prime",
+      "focallength": 18,
+      "format": "35mm"
+    }, {
+      "name": "ZEISS Batis 2/25",
+      "model": "batis225",
+      "type": "prime",
+      "focallength": 25,
+      "format": "35mm"
+    }, {
+      "name": "ZEISS Batis 1.8/85",
+      "model": "batis1885",
+      "type": "prime",
+      "focallength": 85,
       "format": "35mm"
     }
   ]
