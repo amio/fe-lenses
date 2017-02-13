@@ -9,13 +9,19 @@
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["sony", "e-mount", "lenses", "catalog"],
-  "author": "Amio <amio.cn@gmail.com>",
-  "license": "ISC",
   "dependencies": {
-    "next": "^2.0.0-beta.24"
+    "next": "^2.0.0-beta.24",
+    "react-ga": "^2.1.2"
   },
   "now": {
     "alias": "fe-lenses"
-  }
+  },
+  "author": "Amio <amio.cn@gmail.com>",
+  "license": "ISC",
+  "keywords": [
+    "sony",
+    "e-mount",
+    "lenses",
+    "catalog"
+  ]
 }
