@@ -3,7 +3,9 @@ import FocalSpan from './focal-span'
 export default (props) => (
   <div className='lens'>
     <div className='name'>{props.name}</div>
-    <FocalSpan {...props} />
+    <div className='focal'>
+      <FocalSpan className='lens-span' {...props} />
+    </div>
 
     <style jsx>{`
       .lens {
@@ -12,11 +14,11 @@ export default (props) => (
         font-family: sans-serif;
         margin: 4px 0;
       }
-      .lens:hover {
-        background-color: #F5F5F5;
+      .focal {
+        flex: 1;
       }
       .name {
-        width: 23em;
+        width: 24em;
         background-color: #EEE;
         padding-left: 0.5em;
         white-space: nowrap;
@@ -26,6 +28,32 @@ export default (props) => (
       }
       .lens:hover .name {
         overflow: visible;
+      }
+
+      @media (min-width: 740px) {
+        .lens:hover {
+          background-color: #F5F5F5;
+        }
+      }
+
+      @media (max-width: 740px) {
+        .name {
+          font-size: 12px;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .lens {
+          display: block;
+          padding-top: 5px;
+        }
+        .name {
+          width: auto;
+          background-color: transparent;
+          font-size: 12px;
+          line-height: 1em;
+          color: #BBB;
+        }
       }
     `}</style>
   </div>
