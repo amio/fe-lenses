@@ -77,7 +77,12 @@ export default class App extends React.Component {
           padding: 0.5em 1em;
         }
         .search-input::placeholder {
-          color: rgba(255,255,255, 0.5);
+          color: rgba(255,255,255, 0.6);
+        }
+        .search-input:focus {
+          background-color: rgba(191, 54, 12, 0.3);
+          box-shadow: 0 0 8px #BF360C inset;
+          outline: none;
         }
 
         @media (max-width: 640px) {
