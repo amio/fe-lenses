@@ -30,22 +30,22 @@ export default (props) => (
         overflow: visible;
       }
 
-      @media (min-width: 740px) {
+      @media (min-width: 960px) {
         .lens:hover {
           background-color: #F5F5F5;
         }
       }
 
-      @media (max-width: 740px) {
+      @media (max-width: 960px) {
         .name {
           font-size: 12px;
         }
       }
 
-      @media (max-width: 500px) {
+      @media (max-width: 640px) {
         .lens {
           display: block;
-          padding-top: 5px;
+          padding-top: 1em;
         }
         .name {
           width: auto;
