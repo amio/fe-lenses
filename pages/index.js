@@ -36,7 +36,7 @@ export default class App extends React.Component {
     return <div>
       <HtmlHead />
       <header>
-        <h1>Full-frame E-mount lenses catalog</h1>
+        <h1 style={styles.h1}>Full-frame E-mount lenses catalog</h1>
         <label className='search-bar'>
           <input className='search-input'
             placeholder='Search'
@@ -57,16 +57,6 @@ export default class App extends React.Component {
           position: sticky;
           top: 0;
           z-index: 100;
-        }
-        h1 {
-          text-transform: uppercase;
-          letter-spacing: 0.04em;
-          font-family: Palatino, Georgia, serif;
-          text-align: left;
-          margin: 0;
-          padding: 0.7em;
-          background-color: #333;
-          color: #EEE;
         }
         .lens-chart {
           padding: 0.5em;
@@ -96,5 +86,17 @@ export default class App extends React.Component {
         }
       `}</style>
     </div>
+  }
+}
+
+const styles = {
+  h1: {
+    textTransform: 'uppercase',
+    letterSpacing: '0.04em',
+    fontFamily: 'Palatino, Georgia, serif',
+    margin: 0,
+    padding: '0.7em',
+    background: '#333',
+    color: '#EEE'
   }
 }
