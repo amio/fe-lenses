@@ -19,19 +19,20 @@ export default class App extends React.Component {
   }
 
   onSearchInput (e) {
-    const s = e.target.value
+    const words = e.target.value
     this.setState({
-      search: s,
-      searchReg: new RegExp(RegExp.escape(s).replace(/\s+/, '|'), 'i')
+      search: words,
+      searchReg: new RegExp(RegExp.escape(words).replace(/\s+/, '|'), 'i')
     })
   }
 
   render () {
     keep(24)
 
-    const lenses = this.state.search === ''
-      ? db.lenses
-      : db.lenses.filter(lens => this.state.searchReg.test(lens.name))
+    const noSearch = this.state.search === ''
+    const lenses = noSearch ? db.lenses : db.lenses.filter(lens => {
+      return this.state.searchReg.test(lens.name)
+    })
 
     return <div>
       <HtmlHead />
