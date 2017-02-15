@@ -46,6 +46,16 @@ export default class App extends React.Component {
           Full-frame E-mount lenses catalog
         </h1>
         <label className='search-bar'>
+          <span className='search-icon' onClick={() => this.setState({search: ''})}>
+            {
+              noSearch ? <svg className='magnifier' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 310 310'>
+                <path d='M273.587 214.965c49.11-49.11 49.11-129.02 0-178.132-49.11-49.11-129.02-49.11-178.13 0C53.793 78.497 47.483 140.463 76.51 188.85c0 0 2.085 3.498-.73 6.312-16.066 16.064-64.264 64.263-64.264 64.263-12.79 12.79-15.836 30.675-4.493 42.02l1.953 1.95c11.343 11.346 29.23 8.302 42.02-4.49l64.127-64.127c2.95-2.95 6.448-.866 6.448-.866 48.388 29.026 110.353 22.717 152.017-18.947zM118.71 191.71c-36.287-36.288-36.286-95.332.002-131.62 36.288-36.287 95.332-36.288 131.62 0 36.287 36.287 36.287 95.332 0 131.62-36.29 36.286-95.332 36.286-131.62 0z' />
+                <path d='M126.75 118.424c-1.69 0-3.406-.332-5.06-1.03-6.612-2.8-9.705-10.427-6.907-17.04 17.586-41.558 65.703-61.06 107.26-43.475 6.612 2.797 9.705 10.425 6.907 17.037-2.8 6.612-10.425 9.703-17.04 6.906-28.353-11.998-61.185 1.31-73.182 29.663-2.1 4.96-6.913 7.938-11.978 7.938z' />
+              </svg> : <svg className='clear' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 357 357'>
+                <path d='M357 35.7L321.3 0 178.5 142.8 35.7 0 0 35.7l142.8 142.8L0 321.3 35.7 357l142.8-142.8L321.3 357l35.7-35.7-142.8-142.8' />
+              </svg>
+            }
+          </span>
           <input className='search-input'
             placeholder='Search'
             value={this.state.search}
@@ -83,6 +93,21 @@ export default class App extends React.Component {
         .search-bar {
           display: block;
           background-color: #E52;
+          position: relative;
+        }
+        .search-icon {
+          position: absolute;
+          top: 0.4em;
+          left: 0.3em;
+          width: 1em;
+          padding: 0.5em;
+          fill: #FFF;
+        }
+        .magnifier {
+          opacity: 0.8;
+        }
+        .clear {
+          cursor: pointer;
         }
         .search-input {
           background: transparent;
@@ -92,7 +117,7 @@ export default class App extends React.Component {
           color: #FFF;
           font-size: 1rem;
           line-height: 1.8em;
-          padding: 0.5em 1em;
+          padding: 0.5em 2.2em;
         }
         .search-input::placeholder {
           color: rgba(255,255,255, 0.6);

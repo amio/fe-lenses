@@ -44,7 +44,7 @@ export default (props) => (
         display: inline-block;
         width: 1em;
         height: 1em;
-        margin: 0.6em;
+        margin: 10px;
         position: relative;
         left: 2em;
         float: right;
