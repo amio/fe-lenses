@@ -2,42 +2,49 @@
   "lenses": [
     {
       "name": "Sony FE 28mm F2 Lens",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel28f20",
       "model": "SEL28F20",
       "type": "prime",
       "focallength": 28,
       "format": "35mm"
     }, {
       "name": "Sony FE 50mm F2.8 Macro",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel50m28",
       "model": "SEL50M28",
       "type": "prime",
       "focallength": 50,
       "format": "35mm"
     }, {
       "name": "Sony FE 85mm F1.8",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel85f18",
       "model": "SEL85F18",
       "type": "prime",
       "focallength": 85,
       "format": "35mm"
     }, {
       "name": "Sony FE 85mm F1.4 GM",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel85f14gm",
       "model": "SEL85F14GM",
       "type": "prime",
       "focallength": 85,
       "format": "35mm"
     }, {
       "name": "Sony FE 90mm F2.8 Macro G OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel90m28g",
       "model": "SEL90M28G",
       "type": "prime",
       "focallength": 90,
       "format": "35mm"
     }, {
       "name": "Sony FE 100mm F2.8 STF GM OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel100f28gm",
       "model": "SEL100F28GM",
       "type": "prime",
       "focallength": 100,
       "format": "35mm"
     }, {
       "name": "Sony FE 24-70mm F2.8 GM",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel2470gm",
       "model": "SEL2470GM",
       "type": "zoom",
       "focallengthwide": 24,
@@ -45,6 +52,7 @@
       "format": "35mm"
     }, {
       "name": "Sony FE 70-200mm F2.8 GM OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel70200gm",
       "model": "SEL70200GM",
       "type": "zoom",
       "focallengthwide": 70,
@@ -52,6 +60,7 @@
       "format": "35mm"
     }, {
       "name": "Sony FE 70-300mm F4.5-5.6 G OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel70300g",
       "model": "SEL70300G",
       "type": "zoom",
       "focallengthwide": 70,
@@ -59,6 +68,7 @@
       "format": "35mm"
     }, {
       "name": "Sony FE 24-240mm F3.5-6.3 OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel24240",
       "model": "SEL24240",
       "type": "zoom",
       "focallengthwide": 24,
@@ -66,30 +76,35 @@
       "format": "35mm"
     }, {
       "name": "Sony Distagon T* FE 35mm F1.4 ZA",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel35f14z",
       "model": "SEL35F14Z",
       "type": "prime",
       "focallength": 35,
       "format": "35mm"
     }, {
       "name": "Sony Sonnar T* FE 35mm F2.8 ZA",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel35f28z",
       "model": "SEL35F28Z",
       "type": "prime",
       "focallength": 35,
       "format": "35mm"
     }, {
       "name": "Sony Sonnar T* FE 50mm F1.4 ZA",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel50f14z",
       "model": "SEL50F14Z",
       "type": "prime",
       "focallength": 50,
       "format": "35mm"
     }, {
       "name": "Sony Sonnar T* FE 55mm F1.8 ZA",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel55f18z",
       "model": "SEL55F18Z",
       "type": "prime",
       "focallength": 55,
       "format": "35mm"
     }, {
       "name": "Sony Vario-Tessar T* FE 16-35mm F4 ZA OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel1635z",
       "model": "SEL1635Z",
       "type": "zoom",
       "focallengthwide": 16,
@@ -97,6 +112,7 @@
       "format": "35mm"
     }, {
       "name": "Sony Vario-Tessar T* FE 24-70mm F4 ZA OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel2470z",
       "model": "SEL2470Z",
       "type": "zoom",
       "focallengthwide": 24,
@@ -104,78 +120,91 @@
       "format": "35mm"
     }, {
       "name": "ZEISS Loxia 2.8/21",
+      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/loxia/loxia2821.html",
       "model": "loxia2821",
       "type": "prime",
       "focallength": 28,
       "format": "35mm"
     }, {
       "name": "ZEISS Loxia 2/35",
+      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/loxia/loxia235.html",
       "model": "loxia235",
       "type": "prime",
       "focallength": 35,
       "format": "35mm"
     }, {
       "name": "ZEISS Loxia 2/50",
+      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/loxia/loxia250.html",
       "model": "loxia250",
       "type": "prime",
       "focallength": 50,
       "format": "35mm"
     }, {
       "name": "ZEISS Loxia 2.4/85",
+      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/loxia/loxia2485.html",
       "model": "loxia2485",
       "type": "prime",
       "focallength": 85,
       "format": "35mm"
     }, {
       "name": "ZEISS Batis 2.8/18",
+      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/batis/batis2818.html",
       "model": "batis2818",
       "type": "prime",
       "focallength": 18,
       "format": "35mm"
     }, {
       "name": "ZEISS Batis 2/25",
+      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/batis/batis225.html",
       "model": "batis225",
       "type": "prime",
       "focallength": 25,
       "format": "35mm"
     }, {
       "name": "ZEISS Batis 1.8/85",
+      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/batis/batis1885.html",
       "model": "batis1885",
       "type": "prime",
       "focallength": 85,
       "format": "35mm"
     }, {
-      "name": "Voigtlaender 10mm/F5,6 Hyper Wide Heliar",
+      "name": "Voigtlander 10mm/F5,6 Hyper Wide Heliar",
+      "link": "https://voigtlaender.com/10-mm--f-5%2c6-hyper-wide-heliar-e-mount.html",
       "model": "V1056",
       "type": "prime",
       "focallength": 10,
       "format": "35mm"
     }, {
-      "name": "Voigtlaender 12mm/F5,6 Ultra Wide Heliar",
+      "name": "Voigtlander 12mm/F5,6 Ultra Wide Heliar",
+      "link": "https://voigtlaender.com/12-mm--f-5%2c6-ultra-wide-heliar-e-mount.html",
       "model": "V1256",
       "type": "prime",
       "focallength": 12,
       "format": "35mm"
     }, {
-      "name": "Voigtlaender 15mm/F4,5 Ultra Wide Heliar",
+      "name": "Voigtlander 15mm/F4,5 Ultra Wide Heliar",
+      "link": "https://voigtlaender.com/15-mm--f-4%2c5-super-wide-heliar-e-mount.html",
       "model": "V1545",
       "type": "prime",
       "focallength": 15,
       "format": "35mm"
     }, {
-      "name": "Voigtlaender 45mm/F2,8 Heliar",
-      "model": "V4528",
+      "name": "Voigtlander 40mm/F2,8 Heliar",
+      "link": "https://voigtlaender.com/40-mm--f-2%2c8-heliar.html",
+      "model": "V4028",
       "type": "prime",
       "focallength": 45,
       "format": "35mm"
     }, {
-      "name": "Voigtlaender 65mm/F2 Micro Apo-Lanthar",
+      "name": "Voigtlander 65mm/F2 Micro Apo-Lanthar",
+      "link": "https://voigtlaender.com/65-mm--f2-macro-apo-lanthar.html",
       "model": "V652",
       "type": "prime",
       "focallength": 65,
       "format": "35mm"
     }, {
       "name": "Zhongyi Mitakon SPEEDMASTER 50mm f0.95",
+      "link": "http://www.zyoptics.net/product/mitakon-speedmaster-50mm-f0-95/",
       "model": "MTK50MF095",
       "type": "prime",
       "focallength": 50,
