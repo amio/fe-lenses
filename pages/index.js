@@ -25,10 +25,10 @@ export default class App extends React.Component {
       return { search: '' }
     }
 
-    words = RegExp.escape(decodeURI(words))
+    words = words.replace(/%20/g, ' ')
     return {
       search: words,
-      searchReg: new RegExp(words.replace(/\s+/, '|'), 'i')
+      searchReg: new RegExp(RegExp.escape(words).replace(/\s+/, '|'), 'i')
     }
   }
 

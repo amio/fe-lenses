@@ -51,6 +51,14 @@
       "focallengthtele": 70,
       "format": "35mm"
     }, {
+      "name": "Sony FE PZ 28-135mm F4 G OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/selp28135g",
+      "model": "SEL28135G",
+      "type": "zoom",
+      "focallengthwide": 28,
+      "focallengthtele": 135,
+      "format": "35mm"
+    }, {
       "name": "Sony FE 70-200mm F2.8 GM OSS",
       "link": "http://www.sony.com/electronics/camera-lenses/sel70200gm",
       "model": "SEL70200GM",
