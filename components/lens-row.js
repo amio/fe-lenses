@@ -4,7 +4,7 @@ export default (props) => (
   <div className='lens'>
     <div className='name'>
       <a className='google-link' target='_blank'
-        href={'https://www.google.com/#q=' + props.name.replace(/\s/g, '+')} />
+        href={'https://www.google.com/search?q=' + props.name.replace(/\s/g, '+')} />
       { props.link ? <a className='link' href={props.link}>{props.name}</a> : props.name }
     </div>
     <div className='focal'>
