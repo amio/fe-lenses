@@ -12,7 +12,7 @@ export default (props) => (
         display: flex;
         line-height: 32px;
         font-family: sans-serif;
-        margin: 4px 0;
+        margin: 0.5em;
       }
       .focal {
         flex: 1;
@@ -51,6 +51,8 @@ export default (props) => (
           width: auto;
           background-color: transparent;
           font-size: 12px;
+          position: relative;
+          top: 3px;
           line-height: 1em;
           color: #BBB;
         }
