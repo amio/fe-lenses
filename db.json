@@ -203,11 +203,32 @@
       "focallength": 65,
       "format": "35mm"
     }, {
+      "name": "Zhongyi Mitakon 20mm f/2 4.5X Super Macro",
+      "link": "http://www.zyoptics.net/product/mitakon-20mm-f2-4-5x-super-macro-lens/",
+      "model": "MTK20MF2",
+      "type": "prime",
+      "focallength": 20,
+      "format": "35mm"
+    }, {
       "name": "Zhongyi Mitakon SPEEDMASTER 50mm f0.95",
       "link": "http://www.zyoptics.net/product/mitakon-speedmaster-50mm-f0-95/",
       "model": "MTK50MF095",
       "type": "prime",
       "focallength": 50,
+      "format": "35mm"
+    }, {
+      "name": "Zhongyi Mitakon Speedmaster 85mm f/1.2",
+      "link": "http://www.zyoptics.net/product/mitakon-zhongyi-speedmaster-85mm-f1-2-lens-dream/",
+      "model": "MTK85MF12",
+      "type": "prime",
+      "focallength": 85,
+      "format": "35mm"
+    }, {
+      "name": "Zhongyi Mitakon Speedmaster 135mm f/1.4",
+      "link": "http://www.zyoptics.net/product/pre-order-mitakon-speedmaster-135mm-f1-4/",
+      "model": "MTK135MF14",
+      "type": "prime",
+      "focallength": 135,
       "format": "35mm"
     }, {
       "name": "Samyang 12mm F2.8 ED AS NCS FISH-EYE",
