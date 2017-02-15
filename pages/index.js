@@ -3,27 +3,43 @@ import keep from '../now-keep'
 import HtmlHead from '../components/html-head'
 import LensRow from '../components/lens-row'
 
-const db = require('../db.json')
 RegExp.escape = RegExp.escape || function (text) {
   return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')
 }
+const db = require('../db.json')
 
 export default class App extends React.Component {
   constructor (props) {
     super(props)
 
-    this.state = {
-      search: ''
-    }
+    this.state = this.genSearchState(props.search || '')
     this.onSearchInput = this.onSearchInput.bind(this)
+  }
+
+  static async getInitialProps ({ query }) {
+    return query
+  }
+
+  genSearchState (words) {
+    if (words === '') {
+      return { search: '' }
+    }
+
+    words = RegExp.escape(decodeURI(words))
+    return {
+      search: words,
+      searchReg: new RegExp(words.replace(/\s+/, '|'), 'i')
+    }
   }
 
   onSearchInput (e) {
     const words = e.target.value
-    this.setState({
-      search: words,
-      searchReg: new RegExp(RegExp.escape(words).replace(/\s+/, '|'), 'i')
-    })
+    this.setState(this.genSearchState(words))
+    this.updateSearchUrl(words)
+  }
+
+  updateSearchUrl (words) {
+    window.history.replaceState(null, null, '/' + words)
   }
 
   render () {
@@ -46,7 +62,9 @@ export default class App extends React.Component {
           Full-frame E-mount lenses catalog
         </h1>
         <label className='search-bar'>
-          <span className='search-icon' onClick={() => this.setState({search: ''})}>
+          <span
+            className='search-icon'
+            onClick={() => { this.setState({search: ''}); this.updateSearchUrl('') }}>
             {
               noSearch ? <svg className='magnifier' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 310 310'>
                 <path d='M273.587 214.965c49.11-49.11 49.11-129.02 0-178.132-49.11-49.11-129.02-49.11-178.13 0C53.793 78.497 47.483 140.463 76.51 188.85c0 0 2.085 3.498-.73 6.312-16.066 16.064-64.264 64.263-64.264 64.263-12.79 12.79-15.836 30.675-4.493 42.02l1.953 1.95c11.343 11.346 29.23 8.302 42.02-4.49l64.127-64.127c2.95-2.95 6.448-.866 6.448-.866 48.388 29.026 110.353 22.717 152.017-18.947zM118.71 191.71c-36.287-36.288-36.286-95.332.002-131.62 36.288-36.287 95.332-36.288 131.62 0 36.287 36.287 36.287 95.332 0 131.62-36.29 36.286-95.332 36.286-131.62 0z' />
@@ -59,7 +77,7 @@ export default class App extends React.Component {
           <input className='search-input'
             placeholder='Search'
             value={this.state.search}
-            onInput={this.onSearchInput} />
+            onChange={this.onSearchInput} />
         </label>
       </header>
       <div className='lens-chart'>
