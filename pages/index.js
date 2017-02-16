@@ -88,7 +88,7 @@ export default class App extends React.Component {
         }
       </div>
       <footer>
-        mail to <a href='mailto:amio.cn@gmail.com'>amio.cn@gmail.com</a>
+        <a href='mailto:amio.cn@gmail.com'>amio.cn@gmail.com</a>
       </footer>
 
       <style jsx>{`
@@ -145,10 +145,13 @@ export default class App extends React.Component {
           box-shadow: 0 0 8px #BF360C inset;
           outline: none;
         }
+        .lens-chart {
+          max-width: 960px;
+          margin: 3rem auto;
+        }
         footer {
           text-align: center;
-          padding: 2em;
-          border-top: 1px solid #EEE;
+          margin: 4rem;
           color: #AAA;
         }
         footer a {
@@ -163,6 +166,9 @@ export default class App extends React.Component {
           .github-link {
             width: 2em;
             height: 2em;
+          }
+          .lens-chart {
+            margin: 1em auto;
           }
         }
       `}</style>
