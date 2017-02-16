@@ -239,6 +239,13 @@
       "focallength": 135,
       "format": "35mm"
     }, {
+      "name": "Tokina FíRIN 20mm F2 FE MF",
+      "link": "http://www.tokina.co.jp/camera-lenses/wide-lenses/firin-20mm-f2-fe-mf.html",
+      "model": "FRN-MF20FXSE",
+      "type": "prime",
+      "focallength": 20,
+      "format": "35mm"
+    }, {
       "name": "Samyang 12mm F2.8 ED AS NCS FISH-EYE",
       "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=5",
       "model": "SQ5",
