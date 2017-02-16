@@ -177,7 +177,7 @@ const styles = {
     fontFamily: 'Palatino, Georgia, serif',
     margin: 0,
     padding: '0.7em',
-    background: '#333',
-    color: '#EEE'
+    background: '#222',
+    color: '#FFF'
   }
 }
