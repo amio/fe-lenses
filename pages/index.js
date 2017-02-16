@@ -28,7 +28,7 @@ export default class App extends React.Component {
     words = words.replace(/%20/g, ' ')
     return {
       search: words,
-      searchReg: new RegExp(RegExp.escape(words).replace(/\s+/, '|'), 'i')
+      searchReg: new RegExp(RegExp.escape(words.trim()).replace(/\s+/, '|'), 'i')
     }
   }
 
