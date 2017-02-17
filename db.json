@@ -15,6 +15,13 @@
       "focallength": 50,
       "format": "35mm"
     }, {
+      "name": "Sony FE 50mm F1.8",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel50f18f",
+      "model": "SEL50F18F",
+      "type": "prime",
+      "focallength": 50,
+      "format": "35mm"
+    }, {
       "name": "Sony FE 85mm F1.8",
       "link": "http://www.sony.com/electronics/camera-lenses/sel85f18",
       "model": "SEL85F18",
