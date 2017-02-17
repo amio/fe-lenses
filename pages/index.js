@@ -97,6 +97,15 @@ export default class App extends React.Component {
           top: 0;
           z-index: 100;
         }
+        h1 {
+          text-transform: uppercase,
+          letter-spacing: 0.04em,
+          font-family: Palatino, Georgia, serif,
+          margin: 0,
+          padding: 0.7em,
+          background: #222;
+          color: #FFF;
+        }
         .github-link {
           display: inline-block;
           height: 1.1em;
