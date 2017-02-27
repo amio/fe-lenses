@@ -267,6 +267,34 @@
       "focallength": 20,
       "format": "35mm"
     }, {
+      "name": "LAOWA 12mm F2.8 Zero-D",
+      "link": "http://www.laowalens.com/index.php?c=content&a=show&id=334",
+      "model": "LW334",
+      "type": "prime",
+      "focallength": 12,
+      "format": "35mm"
+    }, {
+      "name": "LAOWA 15mm F4.0 MACRO 1:1",
+      "link": "http://www.laowalens.com/html/product-6.html",
+      "model": "LW6",
+      "type": "prime",
+      "focallength": 15,
+      "format": "35mm"
+    }, {
+      "name": "LAOWA 15mm F2.0 Zero-D",
+      "link": "http://www.laowalens.com",
+      "model": "LW1520",
+      "type": "prime",
+      "focallength": 15,
+      "format": "35mm"
+    }, {
+      "name": "LAOWA 105mm F2.0 (T3.2)B-Dreamer STF",
+      "link": "http://www.laowalens.com/html/product-187.html",
+      "model": "LW187",
+      "type": "prime",
+      "focallength": 105,
+      "format": "35mm"
+    }, {
       "name": "Samyang 12mm F2.8 ED AS NCS FISH-EYE",
       "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=5",
       "model": "SQ5",
