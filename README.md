@@ -1,5 +1,7 @@
 # Full-frame E-mount lenses catalog
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amio/fe-lenses.svg)](https://greenkeeper.io/)
+
 https://fe-lenses.now.sh
 
 Include Brands:
