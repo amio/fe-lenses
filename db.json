@@ -183,6 +183,13 @@
       "focallength": 85,
       "format": "35mm"
     }, {
+      "name": "ZEISS Batis 2.8/135",
+      "link": "https://www.zeiss.com/camera-lenses/us/photography/products/batis-lenses/batis-28135.html",
+      "model": "batis28135",
+      "type": "prime",
+      "focallength": 135,
+      "format": "35mm"
+    }, {
       "name": "Voigtländer 10mm/F5,6 Hyper Wide Heliar",
       "link": "https://voigtlaender.com/10-mm--f-5%2c6-hyper-wide-heliar-e-mount.html",
       "model": "V1056",
