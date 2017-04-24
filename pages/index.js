@@ -6,7 +6,7 @@ import LensRow from '../components/lens-row'
 RegExp.escape = RegExp.escape || function (text) {
   return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')
 }
-const db = require('../db.json')
+const db = require('../lens-db.json')
 
 export default class App extends React.Component {
   constructor (props) {
