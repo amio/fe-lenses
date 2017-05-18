@@ -50,12 +50,36 @@
       "focallength": 100,
       "format": "35mm"
     }, {
+      "name": "Sony FE 16-35mm F2.8 GM",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel1635gm",
+      "model": "SEL1635GM",
+      "type": "zoom",
+      "focallengthwide": 16,
+      "focallengthtele": 35,
+      "format": "35mm"
+    }, {
       "name": "Sony FE 24-70mm F2.8 GM",
       "link": "http://www.sony.com/electronics/camera-lenses/sel2470gm",
       "model": "SEL2470GM",
       "type": "zoom",
       "focallengthwide": 24,
       "focallengthtele": 70,
+      "format": "35mm"
+    }, {
+      "name": "Sony FE 70-200mm F2.8 GM OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel70200gm",
+      "model": "SEL70200GM",
+      "type": "zoom",
+      "focallengthwide": 70,
+      "focallengthtele": 200,
+      "format": "35mm"
+    }, {
+      "name": "Sony FE 12-24mm F4 G",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel1224g",
+      "model": "SEL1224G",
+      "type": "zoom",
+      "focallengthwide": 12,
+      "focallengthtele": 24,
       "format": "35mm"
     }, {
       "name": "Sony FE 100-400mm F4.5-5.6 GM OSS",
@@ -72,14 +96,6 @@
       "type": "zoom",
       "focallengthwide": 28,
       "focallengthtele": 135,
-      "format": "35mm"
-    }, {
-      "name": "Sony FE 70-200mm F2.8 GM OSS",
-      "link": "http://www.sony.com/electronics/camera-lenses/sel70200gm",
-      "model": "SEL70200GM",
-      "type": "zoom",
-      "focallengthwide": 70,
-      "focallengthtele": 200,
       "format": "35mm"
     }, {
       "name": "Sony FE 70-300mm F4.5-5.6 G OSS",

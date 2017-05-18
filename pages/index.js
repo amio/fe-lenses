@@ -1,5 +1,4 @@
 import React from 'react'
-import keep from '../now-keep'
 import HtmlHead from '../components/html-head'
 import LensRow from '../components/lens-row'
 
@@ -43,8 +42,6 @@ export default class App extends React.Component {
   }
 
   render () {
-    keep(24)
-
     const noSearch = this.state.search === ''
     const lenses = noSearch ? db.lenses : db.lenses.filter(lens => {
       return this.state.searchReg.test(lens.name)
