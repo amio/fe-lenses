@@ -1,4 +1,5 @@
 import React from 'react'
+import Router from 'next/router'
 import HtmlHead from '../components/html-head'
 import LensRow from '../components/lens-row'
 
@@ -38,7 +39,10 @@ export default class App extends React.Component {
   }
 
   updateSearchUrl (words) {
-    window.history.replaceState(null, null, '/' + words)
+    Router.replace({
+      pathname: '/',
+      query: { search: words }
+    })
   }
 
   render () {

@@ -4,14 +4,12 @@
   "description": "Full-frame E-mount lenses catalog.",
   "repository": "amio/fe-lenses",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "^2.4.0",
-    "next-routes": "^1.0.24",
+    "next": "^3.0.0-beta5",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
