@@ -5,11 +5,11 @@
   "repository": "amio/fe-lenses",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^3.0.0-beta5",
+    "next": "^3.0.0-beta6",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
