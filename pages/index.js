@@ -1,12 +1,12 @@
 import React from 'react'
-import keep from '../now-keep'
+import Router from 'next/router'
 import HtmlHead from '../components/html-head'
 import LensRow from '../components/lens-row'
 
 RegExp.escape = RegExp.escape || function (text) {
   return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')
 }
-const db = require('../db.json')
+const db = require('../lens-db.json')
 
 export default class App extends React.Component {
   constructor (props) {
@@ -39,12 +39,13 @@ export default class App extends React.Component {
   }
 
   updateSearchUrl (words) {
-    window.history.replaceState(null, null, '/' + words)
+    Router.replace({
+      pathname: '/',
+      query: { search: words }
+    })
   }
 
   render () {
-    keep(24)
-
     const noSearch = this.state.search === ''
     const lenses = noSearch ? db.lenses : db.lenses.filter(lens => {
       return this.state.searchReg.test(lens.name)
