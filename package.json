@@ -9,7 +9,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^3.0.0-beta6",
+    "next": "^3.2.1",
+    "next-routes": "^1.0.14",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
