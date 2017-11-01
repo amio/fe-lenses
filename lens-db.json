@@ -82,6 +82,14 @@
       "focallengthtele": 24,
       "format": "35mm"
     }, {
+      "name": "Sony FE 24-105mm F4 G",
+      "link": "https://www.sony.com/electronics/camera-lenses/sel24105g",
+      "model": "SEL24105G",
+      "type": "zoom",
+      "focallengthwide": 24,
+      "focallengthtele": 105,
+      "format": "35mm"
+    }, {
       "name": "Sony FE 100-400mm F4.5-5.6 GM OSS",
       "link": "http://www.sony.com/electronics/camera-lenses/sel100400gm",
       "model": "SEL100400GM",
