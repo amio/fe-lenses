@@ -6,13 +6,14 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "now -T amio -n fe-lenses out"
   },
   "dependencies": {
-    "next": "^3.2.1",
-    "next-routes": "^1.0.14",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "next": "^4.1",
+    "next-routes": "^1.1",
+    "react": "^16.0",
+    "react-dom": "^16.0"
   },
   "now": {
     "alias": "fe-lenses"
