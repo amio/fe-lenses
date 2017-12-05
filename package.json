@@ -7,13 +7,13 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "now -T amio -n fe-lenses out"
+    "deploy": "now --public -T fe -n fe-lenses"
   },
   "dependencies": {
-    "next": "^4.1",
+    "next": "^4.2",
     "next-routes": "^1.1",
-    "react": "^16.0",
-    "react-dom": "^16.0"
+    "react": "^16.2",
+    "react-dom": "^16.2"
   },
   "now": {
     "alias": "fe-lenses"
