@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "now --public -T fe -n fe-lenses"
+    "deploy": "now --public -T fe -n fe-lenses",
+    "alias": "now -T fe alias"
   },
   "dependencies": {
     "next": "^4.2",
