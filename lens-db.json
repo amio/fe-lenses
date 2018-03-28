@@ -106,12 +106,12 @@
       "focallengthtele": 135,
       "format": "35mm"
     }, {
-      "name": "Sony FE 70-300mm F4.5-5.6 G OSS",
-      "link": "http://www.sony.com/electronics/camera-lenses/sel70300g",
-      "model": "SEL70300G",
+      "name": "Sony FE 28-70mm F3.5-5.6 OSS",
+      "link": "https://www.sony.com/electronics/camera-lenses/sel2870",
+      "model": "SEL2870",
       "type": "zoom",
-      "focallengthwide": 70,
-      "focallengthtele": 300,
+      "focallengthwide": 28,
+      "focallengthtele": 70,
       "format": "35mm"
     }, {
       "name": "Sony FE 24-240mm F3.5-6.3 OSS",
@@ -120,6 +120,14 @@
       "type": "zoom",
       "focallengthwide": 24,
       "focallengthtele": 240,
+      "format": "35mm"
+    }, {
+      "name": "Sony FE 70-300mm F4.5-5.6 G OSS",
+      "link": "http://www.sony.com/electronics/camera-lenses/sel70300g",
+      "model": "SEL70300G",
+      "type": "zoom",
+      "focallengthwide": 70,
+      "focallengthtele": 300,
       "format": "35mm"
     }, {
       "name": "Sony Distagon T* FE 35mm F1.4 ZA",
