@@ -328,8 +328,8 @@
       "focallength": 15,
       "format": "35mm"
     }, {
-      "name": "LAOWA 15mm F2.0 Zero-D",
-      "link": "http://www.laowalens.com",
+      "name": "LAOWA 15mm F2.0 D-Dreamer",
+      "link": "http://www.laowalens.com/html/product-461.html",
       "model": "LW1520",
       "type": "prime",
       "focallength": 15,
@@ -337,9 +337,16 @@
     }, {
       "name": "LAOWA 105mm F2.0 (T3.2)B-Dreamer STF",
       "link": "http://www.laowalens.com/html/product-187.html",
-      "model": "LW187",
+      "model": "LW105",
       "type": "prime",
       "focallength": 105,
+      "format": "35mm"
+    }, {
+      "name": "7Artisans 35mm F2.0",
+      "link": "http://www.7artisans.com/h-col-107.html",
+      "model": "7A35/2",
+      "type": "prime",
+      "focallength": 35,
       "format": "35mm"
     }, {
       "name": "Tamron 28-75mm f/2.8 Di III RXD",
