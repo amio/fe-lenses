@@ -167,28 +167,35 @@
       "format": "35mm"
     }, {
       "name": "ZEISS Loxia 2.8/21",
-      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/loxia/loxia2821.html",
+      "link": "https://www.zeiss.com/camera-lenses/int/photography/products/loxia-lenses/loxia-2821.html",
       "model": "loxia2821",
       "type": "prime",
       "focallength": 21,
       "format": "35mm"
     }, {
+      "name": "ZEISS Loxia 2.4/25",
+      "link": "https://www.zeiss.com/camera-lenses/int/photography/products/loxia-lenses/loxia-2425.html",
+      "model": "loxia2425",
+      "type": "prime",
+      "focallength": 25,
+      "format": "35mm"
+    }, {
       "name": "ZEISS Loxia 2/35",
-      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/loxia/loxia235.html",
+      "link": "https://www.zeiss.com/camera-lenses/int/photography/products/loxia-lenses/loxia-235.html",
       "model": "loxia235",
       "type": "prime",
       "focallength": 35,
       "format": "35mm"
     }, {
       "name": "ZEISS Loxia 2/50",
-      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/loxia/loxia250.html",
+      "link": "https://www.zeiss.com/camera-lenses/int/photography/products/loxia-lenses/loxia-250.html",
       "model": "loxia250",
       "type": "prime",
       "focallength": 50,
       "format": "35mm"
     }, {
       "name": "ZEISS Loxia 2.4/85",
-      "link": "https://www.zeiss.com/camera-lenses/en_de/camera_lenses/loxia/loxia2485.html",
+      "link": "https://www.zeiss.com/camera-lenses/int/photography/products/loxia-lenses/loxia-2485.html",
       "model": "loxia2485",
       "type": "prime",
       "focallength": 85,
@@ -327,11 +334,20 @@
       "focallength": 105,
       "format": "35mm"
     }, {
-      "name": "Samyang 12mm F2.8 ED AS NCS FISH-EYE",
-      "link": "http://www.samyanglensglobal.com/product/detail.do?SQ=5",
-      "model": "SQ5",
+      "name": "Tamron 28-75mm f/2.8 Di III RXD",
+      "link": "https://www.bhphotovideo.com/c/product/1393332-REG/tamron_a036_28_75mm_f_2_8_di_iii.html",
+      "model": "TBA",
+      "type": "zoom",
+      "focallengthwide": 28,
+      "focallengthtele": 75,
+      "format": "35mm"
+    }, {
+      "brand": "Meyer-Optik-Görlitz",
+      "name": "Nocturnus 50 f0.95 II",
+      "link": "https://www.meyer-optik-goerlitz.com/en/nocturnus-50-f0.95-ii?number=MOG09550SE",
+      "model": "MOG09550SE",
       "type": "prime",
-      "focallength": 12,
+      "focallength": 50,
       "format": "35mm"
     }, {
       "name": "Samyang 14mm F1.8 ED AS IF UMC",
