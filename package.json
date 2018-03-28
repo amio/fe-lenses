@@ -11,8 +11,8 @@
     "alias": "now -T fe alias"
   },
   "dependencies": {
-    "next": "^4.2",
-    "next-routes": "^1.1",
+    "next": "^5.1",
+    "next-routes": "^1.4",
     "react": "^16.2",
     "react-dom": "^16.2"
   },
